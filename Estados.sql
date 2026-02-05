@@ -1,0 +1,36 @@
+INSERT INTO HR.dbo.Estados (IdEstado,Abr,Nombre,Capital,Lada,Tot_mun,Hombres,Mujeres,Gobernador,Sexo,Partido,Inicio,Fin) VALUES
+	 (1,N'Ags',N'AGUASCALIENTES',N'AGUASCALIENTES',N'449',11,696683,728924,N'MartÝn Orozco Sandoval',1,N'PAN','2016-12-01','2021-09-30'),
+	 (2,N'BC',N'BAJA CALIFORNIA',N'MEXICALI',N'686',5,1900589,1868431,N'Jaime Bonilla Valdez',1,N'MORENA','2019-11-01','2021-10-31'),
+	 (3,N'BCS',N'BAJA CALIFORNIA SUR',N'LA PAZ',N'612',5,405879,392568,N'Carlos Mendoza Davis',1,N'PAN','2015-09-10','2021-09-09'),
+	 (4,N'Camp',N'CAMPECHE',N'CAMPECHE',N'981',11,456939,471424,N'Carlos Miguel Aysa Gonzßlez',1,N'PRI','2019-06-13','2021-09-15'),
+	 (5,N'Coah',N'COAHUILA',N'SALTILLO',N'844',38,1563669,1583102,N'Rutilio Escand¾n',1,N'MORENA','2018-12-08','2024-12-07'),
+	 (6,N'Col',N'COLIMA',N'COLIMA',N'312',10,360622,370769,N'Javier Corral Jurado',1,N'PAN','2016-10-04','2021-09-07'),
+	 (7,N'Chis',N'CHIAPAS',N'TUXTLA GUTIERREZ',N'961',118,2705947,2837881,N'Claudia Sheinbaum',0,N'MORENA','2018-12-05','2024-12-04'),
+	 (8,N'Chih',N'CHIHUAHUA',N'CHIHUAHUA',N'614',67,1853822,1888047,N'Miguel -ngel Riquelme SolÝs',1,N'PRI','2017-12-01','2023-11-30'),
+	 (9,N'DF',N'DISTRITO FEDERAL',NULL,N'55',16,4404927,4805017,N'JosÚ Ignacio Peralta',1,N'PRI','2016-02-11','2021-10-31'),
+	 (10,N'Dgo',N'DURANGO',N'DURANGO',N'674',39,904866,927784,N'JosÚ Rosas Aispuro',1,N'PAN','2016-09-15','2022-09-14');
+INSERT INTO HR.dbo.Estados (IdEstado,Abr,Nombre,Capital,Lada,Tot_mun,Hombres,Mujeres,Gobernador,Sexo,Partido,Inicio,Fin) VALUES
+	 (11,N'Gto',N'GUANAJUATO',N'GUANAJUATO',N'473',46,2996454,3170480,N'Diego SinhuÚ RodrÝguez Vallejo',1,N'PAN','2018-09-26','2024-09-25'),
+	 (12,N'Gro',N'GUERRERO',N'CHILPANCINGO.',N'747',81,1700612,1840073,N'HÚctor Astudillo Flores',1,N'PRI','2015-10-27','2021-10-26'),
+	 (13,N'Hgo',N'HIDALGO',N'PACHUCA',N'771',84,1481379,1601462,N'Omar Fayad',1,N'PRI','2016-09-05','2022-09-04'),
+	 (14,N'Jal',N'JALISCO',N'GUADALAJARA',N'33',125,4098455,4249696,N'Enrique Alfaro RamÝrez',1,N'MC','2018-12-06','2024-12-05'),
+	 (15,N'Mex',N'MEXICO',N'TOLUCA',N'722',125,8251295,8741123,N'Alfredo del Mazo Maza',1,N'PRI','2017-09-15','2023-09-14'),
+	 (16,N'Mich',N'MICHOACAN',N'MORELIA',N'443',113,2306341,2442505,N'Silvano Aureoles Conejo',1,N'PRD','2015-10-01','2021-09-30'),
+	 (17,N'Mor',N'MORELOS',N'CUERNAVACA',N'777',33,950847,1020673,N'CuauhtÚmoc Blanco',1,N'ES','2018-10-01','2024-09-30'),
+	 (18,N'Nay',N'NAYARIT',N'TEPIC',N'311',20,612278,623178,N'Antonio EchevarrÝa GarcÝa',1,N'PAN','2017-09-19','2021-09-18'),
+	 (19,N'NL',N'NUEVO LEON',N'MONTERREY',N'81',51,2890950,2893492,N'Jaime RodrÝguez Calder¾n',1,N'IND','2015-10-04','2021-10-03'),
+	 (20,N'Oax',N'OAXACA',N'OAXACA',N'951',570,1974843,2157305,N'Alejandro Murat Hinojosa',1,N'PRI','2016-12-01','2022-11-30');
+INSERT INTO HR.dbo.Estados (IdEstado,Abr,Nombre,Capital,Lada,Tot_mun,Hombres,Mujeres,Gobernador,Sexo,Partido,Inicio,Fin) VALUES
+	 (21,N'Pue',N'PUEBLA',N'PUEBLA',N'NULL',217,3160115,3423163,N'Miguel Barbosa Huerta',1,N'MORENA','2019-08-01','2024-12-01'),
+	 (22,N'Qro',N'QUERETARO',N'QUERETARO',N'NULL',18,1156820,1211647,N'Francisco DomÝnguez ServiÚn',1,N'PAN','2015-10-01','2021-09-30'),
+	 (23,N'QRoo',N'QUINTANA ROO',N'CHETUMAL.',N'NULL',8,936779,921206,N'Carlos JoaquÝn Gonzßlez',1,N'PRD','2016-09-25','2022-09-24'),
+	 (24,N'SLP',N'SAN LUIS POTOSI',N'SAN LUIS POTOSI',N'444',58,1372451,1449804,N'Juan Manuel Carreras',1,N'PRI','2015-09-26','2021-09-25'),
+	 (25,N'Sin',N'SINALOA',N'CULIACAN',N'667',18,1494815,1532128,N'Quirino Ordaz Coppel',1,N'PRI','2017-01-01','2022-12-31'),
+	 (26,N'Son',N'SONORA',N'HERMOSILLO',N'662',72,1472197,1472643,N'Claudia Pavlovich Arellano',0,N'PRI','2015-09-13','2021-09-12'),
+	 (27,N'Tab',N'TABASCO',N'VILLAHERMOSA.',N'NULL',17,1173671,1228927,N'Adßn Augusto L¾pez Hernßndez',1,N'MORENA','2019-01-01','2024-09-30'),
+	 (28,N'Tamps',N'TAMAULIPAS',N'CIUDAD VICTORIA.',N'NULL',43,1736140,1791595,N'Francisco Javier GarcÝa Cabeza de Vaca',1,N'PAN','2016-10-01','2021-09-30'),
+	 (29,N'Tlax',N'TLAXCALA',N'TLAXCALA',N'246',60,649894,693083,N'Marco Antonio Mena RodrÝguez',1,N'PRI','2017-01-01','2021-08-30'),
+	 (30,N'Ver',N'VERACRUZ',N'XALAPA',N'228',212,3871774,4190805,N'Cuitlßhuac GarcÝa JimÚnez',1,N'MORENA','2018-12-01','2024-11-30');
+INSERT INTO HR.dbo.Estados (IdEstado,Abr,Nombre,Capital,Lada,Tot_mun,Hombres,Mujeres,Gobernador,Sexo,Partido,Inicio,Fin) VALUES
+	 (31,N'Yuc',N'YUCATAN',N'MERIDA',N'999',106,1140279,1180619,N'Mauricio Vila Dosal',1,N'PAN','2018-10-01','2024-09-30'),
+	 (32,N'Zac',N'ZACATECAS',N'ZACATECAS',N'492',58,791058,831080,N'Alejandro Tello Cristerna',1,N'PRI','2016-09-12','2021-09-11');
